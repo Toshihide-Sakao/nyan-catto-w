@@ -1,6 +1,6 @@
 /*Nyan Cat and Friends*/
 
-@media (-moz-bool-pref: "theme.catto.nyancats") {
+@media (-moz-bool-pref: "z0.catto.nyancats") {
   #TabsToolbar {
     overflow: hidden !important;
   }
@@ -37,10 +37,10 @@
 
 
 /*Bongo Cat Start*/
-@media (-moz-bool-pref: "theme.catto.bongocats") {
+@media (-moz-bool-pref: "z0.catto.bongocats") {
 #navigator-toolbox:before {
   position: absolute;
-  top: -30px;
+  top: 100px;
   right: 50%;
   transform: translateX(50%);
   width: 200px;
@@ -60,12 +60,13 @@
 
 /*Bongo Cat End*/
 
+
 /* Reduce width */
-@media (-moz-bool-pref: "theme.catto.reduce_size") {
+@media (-moz-bool-pref: "z0.catto.reduce_size") {
   
     #navigator-toolbox {
       --zen-navigation-toolbar-min-width: 100px !important;
          padding-top: 12.5vh !important;
-         height: 75vh !important;
+         height: 85vh !important;
      }
 }
