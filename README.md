@@ -1,5 +1,4 @@
-# 🐱 Nyan & Bongo Browser Mod
-
+# 🐱 Catto Zen Mod
 A delightful collection of feline-themed modifications for your browser's sidebar! Bring some cat energy to your browsing experience.
 
 ## ✨ Features
