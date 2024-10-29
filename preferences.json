@@ -1,6 +1,6 @@
 [
   {
-  "property": "z0.catto.nyan_cats",
+  "property": "z0.catto.nyancats",
   "label": "Enable Nyan Cat and friends.",
   "type": "checkbox",
   "defaultValue": true
