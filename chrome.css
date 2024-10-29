@@ -37,7 +37,7 @@
 
 
 /*Bongo Cat Start*/
-@media (-moz-bool-pref: "z0.catto.bongocats") {
+@media (-moz-bool-pref: "z0.catto.bongocat") {
 #navigator-toolbox:before {
   position: absolute;
   top: 100px;
