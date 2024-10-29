@@ -61,7 +61,7 @@
 /*Bongo Cat End*/
 
 
-/* Reduce width */
+/*Reduce the Size*/
 @media (-moz-bool-pref: "z0.catto.reduce_size") {
   
     #navigator-toolbox {
