@@ -9,7 +9,7 @@
 }
 
 /* Nyan Cats styling with preferences support */
-@media -moz-pref("mod.nyancats.enable_nyan_cats") {
+@media (-moz-pref: "mod.nyancats.enable_nyan_cats") {
     #tabbrowser-tabs::before {
         content: "";
         position: absolute;
@@ -37,16 +37,16 @@
         height: 50px;
         bottom: -4%;
     }
-
+}
 /* Hide Nyan Cats when disabled */
-@media not -moz-pref("mod.nyancats.enable_nyan_cats") {
+@media not (-moz-pref: "mod.nyancats.enable_nyan_cats") {
     #tabbrowser-tabs::before {
         display: none !important;
     }
 }
 
 /* Bongo Cat styling with preferences support */
-@media -moz-pref("mod.nyancats.enable_bongo_cat") {
+@media (-moz-pref: "mod.nyancats.enable_bongo_cat") {
     #navigator-toolbox:before {
         position: absolute;
         right: 50%;
@@ -65,9 +65,9 @@
         pointer-events: none;
         top: 10px; /* Default position */
     }
-
+}
 /* Hide Bongo Cat when disabled */
-@media not -moz-pref("mod.nyancats.enable_bongo_cat") {
+@media not (-moz-pref: "mod.nyancats.enable_bongo_cat") {
     #navigator-toolbox:before {
         display: none !important;
     }
